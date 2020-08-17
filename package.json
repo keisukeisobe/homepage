@@ -3,16 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/dom": "^7.22.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "classnames": "^2.2.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-jss": "^10.3.0",
+    "react-jss": "^10.4.0",
     "react-scripts": "3.4.2",
     "serialize-javascript": "^4.0.0",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,5 +39,8 @@
   },
   "devDependencies": {
     "terser-webpack-plugin": "^4.1.0"
+  },
+  "resolutions": {
+    "serialize-javascript": "^4.0.0"
   }
 }

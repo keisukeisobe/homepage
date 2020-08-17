@@ -1,12 +1,9 @@
 import React, {useState} from "react";
-import {Link, useHistory} from "react-router-dom";
+import {Link} from "react-router-dom";
 // const classNames = require('classnames');
 
-function Header() {
+function Navbar() {
   const [state, setState] = useState('closed');
-
-
-  
   return (
     <header className="header">
       <nav role="navigation" className="navbar">
@@ -17,6 +14,7 @@ function Header() {
         <Link className="navbar-link" to="/other">Other Stuff</Link>
       </nav>    
     </header>
-
   )
 }
+
+export default Navbar;
