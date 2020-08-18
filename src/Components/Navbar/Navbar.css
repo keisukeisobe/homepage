@@ -4,6 +4,10 @@
   left: 0;
   right: 0;
   z-index: 10;
+  height: 50px;
+  line-height: 50px;
+  background-color: #4b524e;
+  
 }
 
 .closed {
@@ -14,3 +18,14 @@
   display: block;
 }
 
+.navbar-link {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    text-align: right;
+  }
+}

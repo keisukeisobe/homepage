@@ -1,0 +1,10 @@
+.startblock-header {
+  text-align: center;
+}
+
+.startblock-title {
+  display: block;
+  line-height: 0.75;
+  font-size: 150px;
+  margin: 0px;
+}
