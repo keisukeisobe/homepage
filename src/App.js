@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Startblock from './Components/Startblock/Startblock';
+import Projects from './Components/Projects/Projects';
+import About from './Components/About/About';
 import './App.css';
 
 function App() {
@@ -10,9 +12,9 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <div className="start-block">
-          <Startblock />
-        </div>
+        <Startblock />
+        <About />
+        <Projects />
       </main>
     </div>
   );
